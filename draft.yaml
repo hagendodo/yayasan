@@ -1,0 +1,31 @@
+models:
+  News:
+    id: id
+    user_id: foreign
+    title: string:512
+    thumbnail: string:2048
+    slug: string:512
+    caption: string:150 nullable
+    content: longtext
+    published_at: nullable timestamp
+    publish_status: bool
+
+  Slider:
+    id: id
+    user_id: foreign
+    image: string:2048
+    publish_status: bool
+
+  Gallery:
+    id: id
+    user_id: foreign
+    image: string:2048
+    publish_status: bool
+
+  About:
+    id: id
+    user_id: foreign
+    page_name: string:50
+    content: longtext
+    publish_status: bool
+    put_on_navbar: bool

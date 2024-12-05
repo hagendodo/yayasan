@@ -1,0 +1,19 @@
+created:
+    - database/factories/NewsFactory.php
+    - database/factories/SliderFactory.php
+    - database/factories/GalleryFactory.php
+    - database/factories/AboutFactory.php
+    - database/migrations/2024_11_23_080902_create_news_table.php
+    - database/migrations/2024_11_23_080903_create_sliders_table.php
+    - database/migrations/2024_11_23_080904_create_galleries_table.php
+    - database/migrations/2024_11_23_080905_create_abouts_table.php
+    - app/Models/News.php
+    - app/Models/Slider.php
+    - app/Models/Gallery.php
+    - app/Models/About.php
+models:
+    User: { name: string, email: string, email_verified_at: 'timestamp nullable', password: string, remember_token: 'string:100 nullable' }
+    News: { id: id, user_id: foreign, title: 'string:512', thumbnail: 'string:2048', slug: 'string:512', caption: 'string:150 nullable', content: longtext, published_at: 'nullable timestamp', publish_status: bool }
+    Slider: { id: id, user_id: foreign, image: 'string:2048', publish_status: bool }
+    Gallery: { id: id, user_id: foreign, image: 'string:2048', publish_status: bool }
+    About: { id: id, user_id: foreign, page_name: 'string:50', content: longtext, publish_status: bool, put_on_navbar: bool }
