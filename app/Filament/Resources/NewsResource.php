@@ -19,6 +19,8 @@ class NewsResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-newspaper';
 
+    protected static ?string $label = 'Kelola Berita';
+
     public static function form(Form $form): Form
     {
         return $form

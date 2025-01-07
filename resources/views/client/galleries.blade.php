@@ -3,9 +3,8 @@
         <div class="mx-auto max-w-3xl text-center">
             <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">Aktivitas Yayasan As-Salam</h2>
 
-            <p class="mt-4 text-gray-500 sm:text-xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolores laborum labore
-                provident impedit esse recusandae facere libero harum sequi.
+            <p class="mt-4 text-gray-500">
+                Lihat momen-momen inspiratif dari berbagai kegiatan yang telah kami lakukan. Galeri ini menampilkan semangat kolaborasi, keceriaan, dan dedikasi dalam setiap langkah kami untuk menciptakan perubahan. Mari jelajahi dokumentasi perjalanan kami dalam menggapai visi bersama!
             </p>
         </div>
         <ul class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

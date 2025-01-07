@@ -19,6 +19,8 @@ class AboutResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-information-circle';
 
+    protected static ?string $label = 'Halaman Tentang';
+
     public static function form(Form $form): Form
     {
         return $form
@@ -54,10 +56,10 @@ class AboutResource extends Resource
                     ->searchable(),
                 Tables\Columns\IconColumn::make('publish_status')
                     ->label('Status Publikasi')
-                    ->searchable(),
-                Tables\Columns\TextColumn::make('put_on_navbar')
+                    ->boolean(),
+                Tables\Columns\IconColumn::make('put_on_navbar')
                     ->label('Ada di Navbar')
-                    ->searchable(),
+                    ->boolean(),                
                 Tables\Columns\TextColumn::make('created_at')
                     ->label('Tanggal Pembuatan')
                     ->dateTime()

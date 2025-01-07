@@ -3,9 +3,8 @@
         <div class="mx-auto max-w-3xl text-center">
             <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">Berita Terbaru</h2>
 
-            <p class="mt-4 text-gray-500 sm:text-xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolores laborum labore
-                provident impedit esse recusandae facere libero harum sequi.
+            <p class="mt-4 text-gray-500">
+                Temukan informasi terkini seputar program, kegiatan, dan pencapaian kami di sini. Kami terus bergerak dan berinovasi untuk memberikan kontribusi terbaik bagi masyarakat.
             </p>
         </div>
         <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-6">

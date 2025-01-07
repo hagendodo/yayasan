@@ -19,6 +19,8 @@ class GalleryResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-photo';
 
+    protected static ?string $label = 'Galeri Aktivitas';
+
     public static function form(Form $form): Form
     {
         return $form
@@ -51,7 +53,7 @@ class GalleryResource extends Resource
                     ->sortable(),
                 Tables\Columns\ImageColumn::make('image'),
                 Tables\Columns\IconColumn::make('publish_status')
-                    ->searchable(),
+                    ->boolean(),
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable()
